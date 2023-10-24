@@ -1,0 +1,38 @@
+// Generals
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background: $background-color;
+   font-family: $font-family;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   overflow: hidden;
+   margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   padding: 0;
+   margin: 0;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style-type: none;
+}
+
+img {
+   width: 100%;
+}
